@@ -1,0 +1,59 @@
+/*Tídulo do curso*/
+.titulo {
+    text-align: center;
+    text-shadow: 3px 2px white;
+    color: blue;
+    font-size: 100px;
+}
+
+#comecar{
+    margin-left: 630px;
+    margin-top: 100px;
+    width: 150px;
+    height: 40px;
+}
+
+
+/*sobre o curso*/
+#sobre_o_curso {
+    color: black;
+    background-color: white;
+}
+
+#professores{
+    color: black;
+    background-color: white;
+    height: 500px;
+}
+
+
+/* footer */
+
+.card-body{
+    background-color: #151515;
+    color: white;
+}
+.text-body{
+    text-align: left;
+}
+
+/*texto / tabs*/
+.row{
+    margin-left: 10px;
+}
+
+.tab-content{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.piano{
+    align-content: left;
+    width: 200px;
+    height: 200px;
+}
+
+/*footer/rodapé/ copyright*/
+.card-footer{
+    text-align: center;
+}

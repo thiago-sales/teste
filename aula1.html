@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head >
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- página CSS > style.css -->
+      <link rel="stylesheet" href="style2.css">
+
+    <title>AvaMusic</title>
+
+  </head>
+  <body style="height:1500px">
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-md bg-primary navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html">AvaMusic</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="modulo1.html" style="color: white;">Módulo 01</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="modulo2.html" style="color: white;">Módulo 02</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Fórum</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--layout colunas-->
+<!--menu esquerdo-->
+<div class="row">
+  <div class="column side" style="background-color:rgb(250,250,250);">
+    <div class="conteiner">
+      <a class="btn btn-primary" id="modulo1"href="modulo1.html">Módulo 01</a><br>
+      <a class="btn btn-light" id="aula1"href="aula1.html">Aula 01</a><br>
+      <a class="btn btn-light" id="aula2"href="aula2.html">Aula 02</a><br>
+      <a class="btn btn-light" id="aula3"href="aula3.html">Aula 03</a><br>
+      <a class="btn btn-light" id="aula4"href="aula4.html">Aula 04</a><br>
+      <a class="btn btn-light" id="aula5"href="aula5.html">Aula 05</a><br>
+
+      <a class="btn btn-primary" id="modulo1"href="modulo2.html">Módulo 02</a><br>
+      <a class="btn btn-light" id="aula1"href="aula6.html">Aula 06</a><br>
+      <a class="btn btn-light" id="aula2"href="aula7.html">Aula 07</a><br>
+      <a class="btn btn-light" id="aula3"href="aula8.html">Aula 08</a><br>
+      <a class="btn btn-light" id="aula4"href="aula9.html">Aula 09</a><br>
+      <a class="btn btn-light" id="aula5"href="aula10.html">Aula 10</a><br>
+    </div>
+  </div>
+
+
+<!--Coluna do meio: colocar aqui as mídias-->
+<div class="column middle" style="background-color:rgb(255,255,255);">
+
+    
+    <!--Tema da aula-->
+    <div class="jumbotron junbotron-fluid">
+        
+    <h1 id="titulo_modulo1" >Título aula 01</h1><br>
+    
+    </div>    
+    
+    <!-- video 01 -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Video 01</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+        <!--link do video-->
+    <iframe id="video" width="900" height="500" src="https://www.youtube.com/embed/ww0vTeQukCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    <!--footer modal-->
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+    
+    <p>Este é um parágrafo.</p>
+<!--não mecher nesse </div>-->
+</div>
+
+<!--menu direito-->
+  <div class="column side" style="background-color:rgb(250,250,250);">
+
+    Link 1, <br>
+    Link 2, <br>
+    Link 3, <br>
+    Link 4, <br>
+    Link 5, <br>
+
+
+  </div>
+</div>
+
+      <!-- footer / rodapé-->
+<div class="footer">
+    <div class="card-body">
+        <div class="row">
+        
+        <div class="col"><a href="index.html" style="color: white;">home</a></div>
+        <div class="col"><a href="modulo1.html" style="color: white;">módulo 1</a></div>
+        <div class="col"><a href="aula3.html" style="color: white;">aula 03</a></div>
+        <div class="col"><a href="modulo2.html" style="color: white;">módulo 02</a></div>
+        <div class="col"><a href="aula8.html" style="color: white;">aula 08</a></div>
+        </div>
+
+        <div class="row">
+        <div class="col"><a href="#" style="color: white;">fórum</a></div>
+        <div class="col"><a href="aula1.html" style="color: white;">aula 01</a></div>
+        <div class="col"><a href="aula4.html" style="color: white;">aula 04</a></div>
+        <div class="col"><a href="aula6.html" style="color: white;">aula 06</a></div>
+        <div class="col"><a href="aula9.html" style="color: white;">aula 09</a></div>
+        </div>
+
+        <div class="row">
+        <div class="col"><a href="#" style="color: white;">suporte</a></div>
+        <div class="col"><a href="aula2.html" style="color: white;">aula 02</a></div>
+        <div class="col"><a href="aula5.html" style="color: white;">aula 05</a></div>
+        <div class="col"><a href="aula7.html" style="color: white;">aula 07</a></div>
+        <div class="col"><a href="aula10.html" style="color: white;">aula 10</a></div>
+        </div>
+
+
+    </div>
+<div class="card-footer tex" style="background-color: black; color: white;">
+        copyright &#169; todos os direitos reservados.
+    </div>
+    </div>
+
+
+  <!-- página javascript > myScript.js -->
+      <script src="myScript.js"></script>
+  </body>
+</html>

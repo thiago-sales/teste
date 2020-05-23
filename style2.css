@@ -1,0 +1,152 @@
+.menu_esquerdo{
+	text-align: left;
+	width: 120px;
+	margin-left: 20px;
+}
+
+/*teste colunas*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 1500px; /* Should be removed. Only for demonstration */
+}
+
+#modulo1{
+	width: 120px;
+}
+#aula1{
+	width: 120px;
+	text-align: center;
+}
+#aula2{
+	text-align: center;
+	width: 120px;
+}
+#aula3{
+	text-align: center;
+	width: 120px;
+}
+#aula4{
+	text-align: center;
+	width: 120px;
+}
+#aula5{
+	text-align: center;
+	width: 120px;
+}
+#p1{
+	text-align: justify;
+}
+
+/*modal video 01*/
+.modal-content{
+	width: 900px;
+	height: 500px;
+}
+/*artigo 01*/
+#historia-sanfona{
+    padding: 20px;
+    text-align: justify;
+}
+
+/*jumbotron curso de iniciação à sanfona*/
+#titulo_modulo1{
+    text-align: center;
+}
+#subtitulo{
+  text-align: center;
+}
+
+.sanfona-img1{
+  margin-left: 250px;
+}
+
+#artigo-modal{
+  margin-right: 200px;
+  width: 900px;
+  height: 500px;
+}
+#artigo-footer{
+  margin-right: 200px;
+  width: 900px;
+  height: 100px; 
+}
+
+#video{
+    padding: 20px;
+    
+}
+
+/* Left and right column */
+/* Left and right column */
+/* Left and right column */
+/* Left and right column */
+/* Left and right column */
+/* Left and right column */
+.column.side {
+  width: 15%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 69%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* footer */
+
+.card-body{
+    background-color: #151515;
+    color: white;
+}
+.text-body{
+    text-align: left;
+}
+
+/*texto / tabs*/
+.row{
+    margin-left: 10px;
+}
+
+.tab-content{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.piano{
+    align-content: left;
+    width: 200px;
+    height: 200px;
+}
+
+/*footer/rodapé/ copyright*/
+.card-footer{
+    text-align: center;
+}
