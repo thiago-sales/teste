@@ -14,8 +14,6 @@ class Alunos extends React.Component{
     render(){
         return(
             <div>
-                <h1>Alunos</h1>
-                <p>Esta é a página Alunos.</p>
 
                 <table class="table table-striped table-hover">
                     <thead>
@@ -30,11 +28,16 @@ class Alunos extends React.Component{
                     <tr>
                         <td>01</td>
                         <td>Thiago da Silva Sales</td>
-                        <td>83991455463</td>
-                        <td>none</td>
+                        <td>(83) 99145-5463</td>
+                        <td>Atualizar Exlcuir</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Ávaro da Silva Sales</td>
+                        <td>(83) 99371-5460</td>
+                        <td>Atualizar Exlcuir</td>
                     </tr>
                 </tbody>
-                
                 </table>
                 
 
