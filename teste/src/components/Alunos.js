@@ -10,6 +10,21 @@ class Alunos extends React.Component{
         }
     }
 
+    componentDidMount(){
+        this.buscarAluno();
+    }
+
+    componentWillUnmount(){
+
+    }
+
+    buscarAluno(){
+        fetch("")
+        .then(resposta => resposta.json())
+        .then(dados => {
+            this.setState({ alunos : dados })
+        })
+    }
 
     render(){
         return(
@@ -25,18 +40,19 @@ class Alunos extends React.Component{
                         </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>01</td>
-                        <td>Thiago da Silva Sales</td>
-                        <td>(83) 99145-5463</td>
-                        <td>Atualizar Exlcuir</td>
-                    </tr>
-                    <tr>
-                        <td>02</td>
-                        <td>Ávaro da Silva Sales</td>
-                        <td>(83) 99371-5460</td>
-                        <td>Atualizar Exlcuir</td>
-                    </tr>
+                    
+                    {
+                        this.state.alunos.map((aluno) =>
+                        <tr>
+                            <td>{aluno.matrícula}</td>
+                            <td>{aluno.nome}</td>
+                            <td>{aluno.contato}</td>
+                            <td>Atualizar Exlcuir</td>
+                        </tr>
+                        )
+                    }
+                    
+
                 </tbody>
                 </table>
                 
