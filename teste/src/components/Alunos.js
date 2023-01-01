@@ -19,8 +19,8 @@ class Alunos extends React.Component{
     }
 
     buscarAluno(){
-        fetch("")
-        .then(resposta => resposta.json())
+        fetch("mongodb+srv://thiagobrotther:<piano2023>@documento.grgrx3t.mongodb.net/?retryWrites=true&w=majority")
+        .then(resposta => resposta.bson())
         .then(dados => {
             this.setState({ alunos : dados })
         })
